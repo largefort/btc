@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Tycoon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bitcoin Tycoon</h1>
+    <div id="bitcoins">Bitcoins: <span id="bitcoin-count">0 BTC</span></div>
+    <button onclick="mine()">Mine Bitcoins</button>
+    <div id="miners">
+        <h2>Miners</h2>
+        <div id="miner-count">0</div>
+        <button onclick="buyMiner()">Buy Miner (Cost: <span id="miner-cost">10 BTC</span>)</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
